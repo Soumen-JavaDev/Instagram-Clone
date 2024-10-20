@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 #main-contaner{
- height: 100vh;
+
  display: flex;
  flex-direction: row;
  justify-content: space-between;
@@ -349,7 +349,7 @@ footer{
         .nav-logo{
             display:contents;
          }
-    }
+    } 
     .body{
        width: 86%;
        padding-left: 40px;
@@ -360,10 +360,12 @@ footer{
     }
     footer{
         width: 100%;
+        
         .footer-link{
             width: 100%;
             padding: 0;
             margin: 0;
+            
         }
         .footer-copyright{
            padding: 0;

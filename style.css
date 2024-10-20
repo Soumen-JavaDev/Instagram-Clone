@@ -323,17 +323,33 @@ footer{
           padding-left: 5px;
            
         }
-        ul>li{
-            
-        }
+        
         ul>li>a>span{
+            
             display: none;
         }
+       
         .nav-logo{
            display: none;
         }
     }
-   
+    .navbar-head:hover{
+        width:300px;
+        
+        width: 200px;
+        height: 616px;
+        padding-top: 46px;
+        display: flex;
+        flex-direction:column ;
+        padding: 36px;
+        ul>li>a>span{
+            
+            display:contents;
+        }
+        .nav-logo{
+            display:contents;
+         }
+    }
     .body{
        width: 86%;
        padding-left: 40px;
